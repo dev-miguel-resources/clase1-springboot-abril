@@ -1,5 +1,7 @@
 package com.escalab.service;
 
-public interface IPacienteService {
+import com.escalab.model.Paciente;
+
+public interface IPacienteService extends ICRUD<Paciente>{
 
 }
