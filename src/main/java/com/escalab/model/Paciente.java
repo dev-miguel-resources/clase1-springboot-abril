@@ -29,8 +29,8 @@ public class Paciente {
 	@Column(name="dni", nullable=false, length=8)
 	private String dni;
 	
-	@Size(min=3, max=150, message="Dirección debe tener minimo 3 caracteres")
-	@Column(name="direccion", nullable=true, length=150)
+	@Size(min = 3, max = 150, message = "Dirección debe tener minimo 3 caracteres")
+	@Column(name = "direccion", nullable = true, length = 150)
 	private String direccion;
 	
 	@Size(min=9, max=9, message="Telefono debe tener 9 caracteres")
