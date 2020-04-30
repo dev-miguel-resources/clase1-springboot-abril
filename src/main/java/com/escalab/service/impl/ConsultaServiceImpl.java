@@ -18,6 +18,7 @@ public class ConsultaServiceImpl implements IConsultaService{
 	@Autowired
 	private IConsultaRepo repo;
 	
+	@Autowired
 	private IConsultaExamenRepo ceRepo;
 	
 	@Override
